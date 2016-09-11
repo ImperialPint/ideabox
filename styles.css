@@ -87,6 +87,16 @@ li {
   width: 60vw;
 }
 
+.list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6d6e71;
+}
+
+.new-body-input {
+  color: #939598;
+}
 
 @-ms-viewport{
  width: device-width;
