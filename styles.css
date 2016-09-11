@@ -98,6 +98,13 @@ li {
   color: #939598;
 }
 
+.remove-button{
+  background: url(../icons/delete-hover.svg) no-repeat;
+}
+.remove-button:hover {
+  background: url(../icons/delete-hover.svg) no-repeat;
+}
+
 @-ms-viewport{
  width: device-width;
 }

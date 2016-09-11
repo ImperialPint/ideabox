@@ -123,7 +123,7 @@ var AllIdeas = {
   },
 
   render: function(idea) {
-    $('.list-container').prepend('<div class="list-item"' + 'id="' + idea.id + '"><li class="title-style"><input class="new-title-input" value="' + idea.title + '"><img class="remove-button" src="icons/delete.svg" height="20" width="20"></li><li class="body-style"><input class="new-body-input" value="' + idea.body + '"></li><img class="downvote" src="icons/downvote.svg" height="20" width="20"><img class="upvote" src="icons/upvote.svg" height="20" width="20"><p class="quality">quality: ' + '<span class="quality-value">' + idea.quality + '</span>' + '</p></div>');
+    $('.list-container').prepend('<div class="list-item"' + 'id="' + idea.id + '"><li class="title-style"><input class="new-title-input" value="' + idea.title + '"><button type="button" class="remove-button" ></button></li><li class="body-style"><input class="new-body-input" value="' + idea.body + '"></li><img class="downvote" src="icons/downvote.svg" height="20" width="20"><img class="upvote" src="icons/upvote.svg" height="20" width="20"><p class="quality">quality: ' + '<span class="quality-value">' + idea.quality + '</span>' + '</p></div>');
   },
 
   renderStorage: function() {
